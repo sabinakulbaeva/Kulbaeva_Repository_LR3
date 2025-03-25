@@ -96,6 +96,20 @@ double sumFractionalParts(double x, double y, double z) {
 int sumIntegerParts(int x, int y, int z) {
     // Здесь реализуйте вычисление суммы целых частей трех чисел
    // Ответственная Мария, ветка branch_fun_5
-   cout << "Функция не реализована." << endl;
-    return 0;  // Пустое значение, замените на результат
+
+    // Ввод трех чисел
+    cout << "Введите три числа: ";
+    cin >> x >> y >> z;
+
+    // Вычисление целых частей
+    int int_part_x = static_cast<int>(x);
+    int int_part_y = static_cast<int>(y);
+    int int_part_z = static_cast<int>(z);
+
+    // Сумма целых частей
+    int sum = int_part_x + int_part_y + int_part_z;
+
+    // Вывод результата
+cout << "Сумма целых частей: " << sum << endl;
+    return 0;
 }
