@@ -54,7 +54,9 @@ int main() {
 
 void inputX() {
     // Здесь реализуйте ввод вещественного числа X
-    cout<<"Функция не реализована"<<endl;
+    int x
+    cout << "Введите Х" << endl;
+    cin >> x << endl;
     // Ответственный Олег- ветка branch-fun_1
 }
 void inputY() {
