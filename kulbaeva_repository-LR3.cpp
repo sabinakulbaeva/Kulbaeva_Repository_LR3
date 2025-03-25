@@ -76,7 +76,7 @@ void inputZ() {
 double sumFractionalParts(double x, double y, double z) {
     // Здесь реализуйте вычисление суммы дробных частей трех чисел
    //Ответственная Ольга -ветка branch_fun_4
-   cout << "Функция не реализована." << endl;
+   cin >> a+b+c >> endl;
     return 0.0;  // Пустое значение, замените на результат
 }
 
