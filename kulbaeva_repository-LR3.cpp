@@ -54,22 +54,23 @@ int main() {
 
 void inputX() {
     // Здесь реализуйте ввод вещественного числа X
-    int x
+    int x;
     cout << "Введите Х" << endl;
     cin >> x >> endl;
     // Ответственный Олег- ветка branch-fun_1
 }
 void inputY() {
-    int y
+    int y;
     cout <<"Введите y" << endl;
     cin >> y >> endl;
     //Ответственныq  Александр -ветка branch_fun_2
 }
 
 void inputZ() {
-    // Здесь реализуйте ввод вещественного числа Z
+    int z;
     // Ответственная Евгения- ветка branch_fun_3
-    cout << "Функция не реализована." << endl;
+    cout << "Введите Z" << endl;
+    cin >> z >> endl;
 }
 
 double sumFractionalParts(double x, double y, double z) {
