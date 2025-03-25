@@ -76,9 +76,22 @@ void inputZ() {
 double sumFractionalParts(double x, double y, double z) {
     // Здесь реализуйте вычисление суммы дробных частей трех чисел
    //Ответственная Ольга -ветка branch_fun_4
-   cin >> a+b+c >> endl;
-    return 0.0;  // Пустое значение, замените на результат
+   cout << "Введите три числа: ";
+   cin >> x >> y >> z;
+   // Вычисление дробных частей
+   double fractional_part_x = modf(x, &x);
+   double fractional_part_y = modf(y, &y);
+   double fractional_part_z = modf(z, &z);
+
+   // Сумма дробных частей
+   double sum = fractional_part_x + fractional_part_y + fractional_part_z;
+
+   // Вывод результата
+   cout << "Сумма дробных частей: " << sum << endl;
+
+   return 0;
 }
+
 
 int sumIntegerParts(int x, int y, int z) {
     // Здесь реализуйте вычисление суммы целых частей трех чисел
